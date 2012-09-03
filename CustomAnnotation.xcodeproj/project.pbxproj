@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA50E9EC15F4957600E7B193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA50E9EB15F4957600E7B193 /* UIKit.framework */; };
+		BA50E9EE15F4957600E7B193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA50E9ED15F4957600E7B193 /* Foundation.framework */; };
+		BA50E9F015F4957600E7B193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA50E9EF15F4957600E7B193 /* CoreGraphics.framework */; };
+		BA50E9F615F4957600E7B193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA50E9F415F4957600E7B193 /* InfoPlist.strings */; };
+		BA50E9F815F4957600E7B193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50E9F715F4957600E7B193 /* main.m */; };
+		BA50E9FC15F4957600E7B193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50E9FB15F4957600E7B193 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA50E9E715F4957600E7B193 /* CustomAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA50E9EB15F4957600E7B193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA50E9ED15F4957600E7B193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA50E9EF15F4957600E7B193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA50E9F315F4957600E7B193 /* CustomAnnotation-Info.plist */ = {isa = PBXFileReference; path = "CustomAnnotation-Info.plist"; sourceTree = "<group>"; };
+		BA50E9F515F4957600E7B193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA50E9F715F4957600E7B193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA50E9F915F4957600E7B193 /* CustomAnnotation-Prefix.pch */ = {isa = PBXFileReference; path = "CustomAnnotation-Prefix.pch"; sourceTree = "<group>"; };
+		BA50E9FA15F4957600E7B193 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA50E9FB15F4957600E7B193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA50E9E415F4957600E7B193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA50E9EC15F4957600E7B193 /* UIKit.framework in Frameworks */,
+				BA50E9EE15F4957600E7B193 /* Foundation.framework in Frameworks */,
+				BA50E9F015F4957600E7B193 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA50E9DC15F4957600E7B193 = {
+			isa = PBXGroup;
+			children = (
+				BA50E9F115F4957600E7B193 /* CustomAnnotation */,
+				BA50E9EA15F4957600E7B193 /* Frameworks */,
+				BA50E9E815F4957600E7B193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA50E9E815F4957600E7B193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA50E9E715F4957600E7B193 /* CustomAnnotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA50E9EA15F4957600E7B193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA50E9EB15F4957600E7B193 /* UIKit.framework */,
+				BA50E9ED15F4957600E7B193 /* Foundation.framework */,
+				BA50E9EF15F4957600E7B193 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA50E9F115F4957600E7B193 /* CustomAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				BA50E9FA15F4957600E7B193 /* AppDelegate.h */,
+				BA50E9FB15F4957600E7B193 /* AppDelegate.m */,
+				BA50E9F215F4957600E7B193 /* Supporting Files */,
+			);
+			path = CustomAnnotation;
+			sourceTree = "<group>";
+		};
+		BA50E9F215F4957600E7B193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA50E9F315F4957600E7B193 /* CustomAnnotation-Info.plist */,
+				BA50E9F415F4957600E7B193 /* InfoPlist.strings */,
+				BA50E9F715F4957600E7B193 /* main.m */,
+				BA50E9F915F4957600E7B193 /* CustomAnnotation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA50E9E615F4957600E7B193 /* CustomAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA50E9FF15F4957600E7B193 /* Build configuration list for PBXNativeTarget "CustomAnnotation" */;
+			buildPhases = (
+				BA50E9E315F4957600E7B193 /* Sources */,
+				BA50E9E415F4957600E7B193 /* Frameworks */,
+				BA50E9E515F4957600E7B193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAnnotation;
+			productName = CustomAnnotation;
+			productReference = BA50E9E715F4957600E7B193 /* CustomAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA50E9DE15F4957600E7B193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BA50E9E115F4957600E7B193 /* Build configuration list for PBXProject "CustomAnnotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA50E9DC15F4957600E7B193;
+			productRefGroup = BA50E9E815F4957600E7B193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA50E9E615F4957600E7B193 /* CustomAnnotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA50E9E515F4957600E7B193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA50E9F615F4957600E7B193 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA50E9E315F4957600E7B193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA50E9F815F4957600E7B193 /* main.m in Sources */,
+				BA50E9FC15F4957600E7B193 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA50E9F415F4957600E7B193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA50E9F515F4957600E7B193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA50E9FD15F4957600E7B193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA50E9FE15F4957600E7B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA50EA0015F4957600E7B193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomAnnotation/CustomAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "CustomAnnotation/CustomAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA50EA0115F4957600E7B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomAnnotation/CustomAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "CustomAnnotation/CustomAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA50E9E115F4957600E7B193 /* Build configuration list for PBXProject "CustomAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA50E9FD15F4957600E7B193 /* Debug */,
+				BA50E9FE15F4957600E7B193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA50E9FF15F4957600E7B193 /* Build configuration list for PBXNativeTarget "CustomAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA50EA0015F4957600E7B193 /* Debug */,
+				BA50EA0115F4957600E7B193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA50E9DE15F4957600E7B193 /* Project object */;
+}
