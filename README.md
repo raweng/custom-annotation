@@ -1,3 +1,8 @@
+A demonstration of customizing the callout bubble of an MKAnnotationView.
+
+Thanks to [tappcandy](http://stackoverflow.com/users/450832/tappcandy), [яοвοτағτєяаււ](http://stackoverflow.com/users/355539/), [Cameron Lowell Palmer](http://stackoverflow.com/users/410867/cameron-lowell-palmer) from [stackoverflow](http://stackoverflow.com/) for this compilation.
+You can read through this [discussion](http://stackoverflow.com/questions/1565828/how-to-customize-the-callout-bubble-for-mkannotationview) for more insights.
+
 This module is licensed under the MIT license.
 
 Copyright (C) 2012 raw engineering, inc. www.raweng.com

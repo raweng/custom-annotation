@@ -13,6 +13,14 @@
 		BA50E9F615F4957600E7B193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA50E9F415F4957600E7B193 /* InfoPlist.strings */; };
 		BA50E9F815F4957600E7B193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50E9F715F4957600E7B193 /* main.m */; };
 		BA50E9FC15F4957600E7B193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50E9FB15F4957600E7B193 /* AppDelegate.m */; };
+		BA9FB9B915F4EF4C00C2C8CD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9FB9B815F4EF4C00C2C8CD /* MapViewController.m */; };
+		BA9FB9BD15F4F00300C2C8CD /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9FB9BC15F4F00300C2C8CD /* Annotation.m */; };
+		BA9FB9BF15F4F13E00C2C8CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9FB9BE15F4F13E00C2C8CD /* MapKit.framework */; };
+		BA9FB9C215F4F20800C2C8CD /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9FB9C115F4F20800C2C8CD /* CustomAnnotationView.m */; };
+		BA9FB9CF15F5080E00C2C8CD /* airport.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9FB9CE15F5080E00C2C8CD /* airport.png */; };
+		BA9FB9D115F508D900C2C8CD /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9FB9D015F508D900C2C8CD /* restaurant.png */; };
+		BA9FB9D315F509A800C2C8CD /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = BA9FB9D215F509A800C2C8CD /* shopping.png */; };
+		BA9FB9D515F50FF800C2C8CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9FB9D415F50FF700C2C8CD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,23 @@
 		BA50E9EB15F4957600E7B193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BA50E9ED15F4957600E7B193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA50E9EF15F4957600E7B193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BA50E9F315F4957600E7B193 /* CustomAnnotation-Info.plist */ = {isa = PBXFileReference; path = "CustomAnnotation-Info.plist"; sourceTree = "<group>"; };
+		BA50E9F315F4957600E7B193 /* CustomAnnotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomAnnotation-Info.plist"; sourceTree = "<group>"; };
 		BA50E9F515F4957600E7B193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA50E9F715F4957600E7B193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BA50E9F915F4957600E7B193 /* CustomAnnotation-Prefix.pch */ = {isa = PBXFileReference; path = "CustomAnnotation-Prefix.pch"; sourceTree = "<group>"; };
-		BA50E9FA15F4957600E7B193 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA50E9F915F4957600E7B193 /* CustomAnnotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomAnnotation-Prefix.pch"; sourceTree = "<group>"; };
+		BA50E9FA15F4957600E7B193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA50E9FB15F4957600E7B193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA9FB9B715F4EF4C00C2C8CD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BA9FB9B815F4EF4C00C2C8CD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		BA9FB9BB15F4F00300C2C8CD /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		BA9FB9BC15F4F00300C2C8CD /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		BA9FB9BE15F4F13E00C2C8CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BA9FB9C015F4F20800C2C8CD /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationView.h; sourceTree = "<group>"; };
+		BA9FB9C115F4F20800C2C8CD /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationView.m; sourceTree = "<group>"; };
+		BA9FB9CE15F5080E00C2C8CD /* airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airport.png; sourceTree = "<group>"; };
+		BA9FB9D015F508D900C2C8CD /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
+		BA9FB9D215F509A800C2C8CD /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopping.png; sourceTree = "<group>"; };
+		BA9FB9D415F50FF700C2C8CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9FB9D515F50FF800C2C8CD /* CoreLocation.framework in Frameworks */,
+				BA9FB9BF15F4F13E00C2C8CD /* MapKit.framework in Frameworks */,
 				BA50E9EC15F4957600E7B193 /* UIKit.framework in Frameworks */,
 				BA50E9EE15F4957600E7B193 /* Foundation.framework in Frameworks */,
 				BA50E9F015F4957600E7B193 /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +66,7 @@
 		BA50E9DC15F4957600E7B193 = {
 			isa = PBXGroup;
 			children = (
+				BA9FB9C315F4F34B00C2C8CD /* Resources */,
 				BA50E9F115F4957600E7B193 /* CustomAnnotation */,
 				BA50E9EA15F4957600E7B193 /* Frameworks */,
 				BA50E9E815F4957600E7B193 /* Products */,
@@ -62,6 +84,8 @@
 		BA50E9EA15F4957600E7B193 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA9FB9BE15F4F13E00C2C8CD /* MapKit.framework */,
+				BA9FB9D415F50FF700C2C8CD /* CoreLocation.framework */,
 				BA50E9EB15F4957600E7B193 /* UIKit.framework */,
 				BA50E9ED15F4957600E7B193 /* Foundation.framework */,
 				BA50E9EF15F4957600E7B193 /* CoreGraphics.framework */,
@@ -72,6 +96,12 @@
 		BA50E9F115F4957600E7B193 /* CustomAnnotation */ = {
 			isa = PBXGroup;
 			children = (
+				BA9FB9BB15F4F00300C2C8CD /* Annotation.h */,
+				BA9FB9BC15F4F00300C2C8CD /* Annotation.m */,
+				BA9FB9C015F4F20800C2C8CD /* CustomAnnotationView.h */,
+				BA9FB9C115F4F20800C2C8CD /* CustomAnnotationView.m */,
+				BA9FB9B715F4EF4C00C2C8CD /* MapViewController.h */,
+				BA9FB9B815F4EF4C00C2C8CD /* MapViewController.m */,
 				BA50E9FA15F4957600E7B193 /* AppDelegate.h */,
 				BA50E9FB15F4957600E7B193 /* AppDelegate.m */,
 				BA50E9F215F4957600E7B193 /* Supporting Files */,
@@ -88,6 +118,16 @@
 				BA50E9F915F4957600E7B193 /* CustomAnnotation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA9FB9C315F4F34B00C2C8CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA9FB9D215F509A800C2C8CD /* shopping.png */,
+				BA9FB9CE15F5080E00C2C8CD /* airport.png */,
+				BA9FB9D015F508D900C2C8CD /* restaurant.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA50E9F615F4957600E7B193 /* InfoPlist.strings in Resources */,
+				BA9FB9CF15F5080E00C2C8CD /* airport.png in Resources */,
+				BA9FB9D115F508D900C2C8CD /* restaurant.png in Resources */,
+				BA9FB9D315F509A800C2C8CD /* shopping.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +196,9 @@
 			files = (
 				BA50E9F815F4957600E7B193 /* main.m in Sources */,
 				BA50E9FC15F4957600E7B193 /* AppDelegate.m in Sources */,
+				BA9FB9B915F4EF4C00C2C8CD /* MapViewController.m in Sources */,
+				BA9FB9BD15F4F00300C2C8CD /* Annotation.m in Sources */,
+				BA9FB9C215F4F20800C2C8CD /* CustomAnnotationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +304,7 @@
 				BA50EA0115F4957600E7B193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

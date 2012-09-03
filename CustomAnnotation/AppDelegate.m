@@ -2,20 +2,27 @@
 //  AppDelegate.m
 //  CustomAnnotation
 //
-//  Created by sobin on 9/3/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by akshay on 9/3/12.
+//  Copyright (c) 2012 raw engineering, inc. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MapViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize mapViewController;
+@synthesize navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    mapViewController = [[MapViewController alloc]init];
+    navigationController = [[UINavigationController alloc]initWithRootViewController:mapViewController];
+    [self.window addSubview:navigationController.view];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -1,8 +1,8 @@
 //
 //  Annotation.m
-//  GeoPOC
+//  CustomAnnotation
 //
-//  Created by raw engineering, inc on 8/14/12.
+//  Created by akshay on 8/14/12.
 //  Copyright (c) 2012 raw engineering, inc. All rights reserved.
 //
 
@@ -13,9 +13,9 @@
 @synthesize coordinate;
 @synthesize title;
 @synthesize subtitle;
-@synthesize placemark;
-@synthesize userType;
-@synthesize date;
+@synthesize locationType;
+
+
 
 - (id)initWithLocation:(CLLocationCoordinate2D)coord {
     self = [super init];
