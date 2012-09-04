@@ -4,7 +4,7 @@ Thanks to [tappcandy](http://stackoverflow.com/users/450832/tappcandy), [яοв�
 You can read through this [discussion](http://stackoverflow.com/questions/1565828/how-to-customize-the-callout-bubble-for-mkannotationview) for more insights.
 
 ![Custom_Callout](https://dl.dropbox.com/u/58285095/Screen%20shot%202012-09-03%20at%2011.08.44%20PM.png)
-
+![Custom_Callout2](https://dl.dropbox.com/u/58285095/Screen%20shot%202012-09-04%20at%207.01.39%20PM.png)
 This module is licensed under the MIT license.
 
 Copyright (C) 2012 raw engineering, inc. www.raweng.com

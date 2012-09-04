@@ -66,7 +66,7 @@
     ann.title = @"title";
     ann.locationType = @"airport";
 
-    Annotation *ann1 = [[Annotation alloc]initWithLocation:CLLocationCoordinate2DMake(37.618719,-122.405917)];
+    Annotation *ann1 = [[Annotation alloc]initWithLocation:CLLocationCoordinate2DMake(18.922749,72.831673)];
     [geomapView addAnnotation:ann1];
     ann1.title = @"title";
     ann1.locationType = @"restaurant";
