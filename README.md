@@ -1,7 +1,3 @@
-## Blog
-
-[https://www.built.io/blog/2012/11/customizing-mkannotationview/] (https://www.built.io/blog/2012/11/customizing-mkannotationview/ "https://www.built.io/blog/2012/11/customizing-mkannotationview/")
-
 A demonstration of customizing the callout bubble of an MKAnnotationView.
 
 Thanks to [tappcandy](http://stackoverflow.com/users/450832/tappcandy), [яοвοτағτєяаււ](http://stackoverflow.com/users/355539/), [Cameron Lowell Palmer](http://stackoverflow.com/users/410867/cameron-lowell-palmer) from [stackoverflow](http://stackoverflow.com/) for this compilation.
@@ -31,3 +27,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+## Blog
+
+[https://www.built.io/blog/2012/11/customizing-mkannotationview/] (https://www.built.io/blog/2012/11/customizing-mkannotationview/ "https://www.built.io/blog/2012/11/customizing-mkannotationview/")
